@@ -1,8 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -11,3 +15,51 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.hero-background {
+  background-image: url('./assets/background/HeroBg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.asset{
+  background-size:contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.eye{
+  background-image: url('./assets/Eye.png');
+}
+.shine{
+  background-image: url('./assets/Shine.png');
+}
+
+.myPic{
+  background-image: url('./assets/Mypic.png');
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.project1{
+  background-image: url('./assets/projects/project1.png');
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.project2{
+  background-image: url('./assets/projects/project2.png');
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.project3{
+  background-image: url('./assets/projects/project3.png');
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
